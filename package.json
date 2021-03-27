@@ -1,0 +1,36 @@
+{
+  "name": "single-spa-radar",
+  "version": "1.0.0",
+  "description": "a wrapper to check single-spa to use release packages or url",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "test",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodatodo/single-spa-radar.git"
+  },
+  "author": "soda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sodatodo/single-spa-radar/issues"
+  },
+  "homepage": "https://github.com/sodatodo/single-spa-radar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/runtime": "^7.13.10",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "rollup": "^2.42.4",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.2"
+  }
+}
